@@ -1,6 +1,6 @@
 {
   "name": "nm-pages",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "lib/index.js",
   "keywords": [
@@ -21,7 +21,9 @@
   },
   "dependencies": {
     "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.14.5",
     "@babel/preset-env": "^7.5.5",
+    "@babel/runtime": "^7.14.8",
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
